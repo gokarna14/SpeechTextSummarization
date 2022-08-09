@@ -4,7 +4,7 @@ const AboutProject =()=>{
 
     return(
         <>
-            This is AboutProject.
+            This is silence AboutProject.
         </>
     )
 
