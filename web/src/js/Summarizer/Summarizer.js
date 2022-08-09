@@ -4,7 +4,7 @@ const Summarizer =()=>{
 
     return(
         <>
-            This is Summarizer.
+            This is Summarizer. 
         </>
     )
 
