@@ -7,7 +7,6 @@ const Home =()=>{
             This is silence and kshitiz home.
         </>
     )
-
 }
 
 export default Home;
