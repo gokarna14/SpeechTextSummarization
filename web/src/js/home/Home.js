@@ -4,7 +4,7 @@ const Home =()=>{
 
     return(
         <>
-            This is home.
+            This is silence home.
         </>
     )
 
