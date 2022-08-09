@@ -4,7 +4,7 @@ const AboutUs =()=>{
 
     return(
         <>
-            This is AboutUs.
+            This is AboutUs  and our project.
         </>
     )
 
