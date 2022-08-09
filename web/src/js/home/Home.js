@@ -1,13 +1,13 @@
 import React from "react";
 
-const AboutUs =()=>{
+const Home =()=>{
 
     return(
         <>
-            This is AboutUs.
+            This is home.
         </>
     )
 
 }
 
-export default AboutUs;
+export default Home;
