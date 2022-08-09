@@ -1,0 +1,2 @@
+Notes for the development process:
+1. Work on GUI
