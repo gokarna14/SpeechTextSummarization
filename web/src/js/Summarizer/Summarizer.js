@@ -7,7 +7,6 @@ const Summarizer =()=>{
             This is Summarizer. 
         </>
     )
-
 }
 
 export default Summarizer;
