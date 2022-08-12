@@ -1,0 +1,9 @@
+.bigInput {
+    width: 80%;
+    min-height: 200px;
+    border: 3px solid black;
+}
+
+.niceCentre {
+    padding: 2% 10% 2% 10%;
+}
