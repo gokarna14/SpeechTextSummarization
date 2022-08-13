@@ -5,6 +5,7 @@ const Home =()=>{
     return(
         <>
             This is silence and kshitiz home.
+            <marquee> This is our homepage</marquee>
         </>
     )
 }
