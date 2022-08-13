@@ -33,7 +33,6 @@ const Summarizer =()=>{
                     <hr />
                 </div>
             </div>
-            <h3>Checking Only</h3>
         </>
     )
 }
