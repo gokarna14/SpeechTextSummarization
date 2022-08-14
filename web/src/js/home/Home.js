@@ -1,10 +1,12 @@
 import React from "react";
+import '../home/homepage.css'
 
 const Home =()=>{
 
     return(
         <>
-            This is silence and kshitiz home.
+            <h1 className="title">Speech Text Summerization and Data Mining using NLP</h1>
+            <marquee> This is our homepage</marquee>
         </>
     )
 }
