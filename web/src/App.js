@@ -4,8 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import AlwaysRender from './js/AlwaysRender/AlwaysRender';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Speech Text Summarization';
+  });
+
   return (
     <div className="App">
       <AlwaysRender></AlwaysRender>
