@@ -16,7 +16,7 @@ const Summarizer =()=>{
         <>
         <div className="mac-book-pro141-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Use Helmet to set up titile</title>
       </Helmet>
       <div className="mac-book-pro141-mac-book-pro141">
         <span className="mac-book-pro141-text">
