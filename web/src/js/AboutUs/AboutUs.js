@@ -8,7 +8,7 @@ const AboutUs =()=>{
 
     return(
         <>
-           <div>
+           <div className="div1">
             <img id ='img1' src= {abhay} style={{style}}/>
             <img id = 'img1'src= {silence} style={{style}}/>
             <img id='ktaru' src= {kshitiz} style={{style}} />
