@@ -8,13 +8,13 @@ const AboutUs =()=>{
 
     return(
         <>
-           <div className="div1">
-            <img id ='img1' src= {abhay} style={{style}}/>
-            <img id = 'img1'src= {silence} style={{style}}/>
-            <img id='ktaru' src= {kshitiz} style={{style}} />
-            <img id='ktaru' src= {gokarna} style={{style}} />
-           </div>
-
+           <html>
+        <link rel="stylesheet" href="./files/custom.css"/>
+        <div class="title-card logo-a caption-a" ><h5>Abhay Nepal</h5></div>
+        <div class="title-card logo-b caption-b"><h5>Dipesh Tripathi</h5></div>
+        <div class="title-card logo-c caption-c"><h5>Gokarna Adhikari</h5></div>
+        <div class="title-card logo-d caption-d"><h5>Kshitiz Dhakal</h5></div>
+        </html>
         </>
     )
 
