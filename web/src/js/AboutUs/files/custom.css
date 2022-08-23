@@ -1,6 +1,110 @@
-img{
-    width: 13%;
-    border-radius: 30%;
-    padding-left: 25px;
-    padding-right: 25px;
-}
+.title-card {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin: 15px;
+    background: #e8e8e8;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.38);
+    border-radius: 6px;
+    color: black;
+    padding: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: Arial, sans-serif;
+  }
+  h5{
+    position:relative;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 900;
+    font-size: small;
+    background-color:rgba(0, 225, 255, 0.63);
+    text-decoration: dashed;
+    margin-top: 100%;
+    transition-duration: 20000ms;
+  }
+    h5:hover{
+    opacity:0;
+    transition-duration : 500ms;
+  }
+  
+  .title-card::before {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /* background: -moz-linear-gradient(top, rgba(0,0,0,0.53s) 0%, rgba(0,0,0,0.24) 100%); 
+    background: -webkit-linear-gradient(top, rgba(1,1,0,1) 0%,rgba(0,0,0,1) 100%); */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%,rgba(73, 255, 27, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87000000', endColorstr='#3d000000',GradientType=0 );
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 500ms ease;
+  }
+  
+  .title-card:hover::before{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .title-card.caption-a::before{
+    color: rgba(0, 0, 0, 0.70);
+    font-weight: bolder;
+    font-size:medium;
+    font-style:italic;
+    content: "Hello' I'm from Pulchowk Campus. I love coding and it's my life.kjflsdjflksj flnasjflajflkaj lfjslfjlasdjflasd jfaljflsaj flkajdfl ajflksj";
+  }
+
+  .title-card.caption-b::before {
+    color: rgba(0, 0, 0, 0.70);
+    font-weight: bolder;
+    font-size: medium;
+    font-style:italic;
+    content: "Hello' I'm from Pulchowk Campus. I love coding and it's my life.";
+  }
+  
+  .title-card.caption-c::before {
+    color: rgba(0, 0, 0, 0.70);
+    font-weight: bolder;
+    font-size: medium;
+    font-style:italic;
+    content: "Hello' I'm from Pulchowk Campus. I love coding and it's my life.";
+  }
+  .title-card.caption-d::before {
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bolder;
+    font-size: medium;
+    font-style:italic;
+    content: "Hello' I'm from Pulchowk Campus. I love coding and it's my life.";
+  }
+  
+  .title-card.logo-a {
+   background-image: url(abhay.jpg);
+   background-size: contain;
+
+  }
+  
+  .title-card.logo-b {
+   background-image: url(silence.jpg);
+   background-size: contain;
+  }
+  
+  .title-card.logo-c {
+   background-image: url(gokarna.jpg);
+   background-size: contain;
+  }
+
+  .title-card.logo-d {
+   background-image: url(kshitiz.jpg);
+   background-size: contain;
+  }
+  .title-card.logo-e{
+    background-color: red;
+  }
