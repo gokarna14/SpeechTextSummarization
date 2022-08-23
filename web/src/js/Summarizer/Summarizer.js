@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import './Summarizer.css'
 import { Helmet } from 'react-helmet'
+//  sudo chmod 777 web   
+// ls -la /usr/local/lib/node_modules     
 
 const Summarizer =()=>{
 
@@ -10,16 +12,34 @@ const Summarizer =()=>{
     const speechInput=()=>{
         alert(`The speech you entered is \n ${speech}`)
     }
+    
     return(
         <>
         <div className="mac-book-pro141-container">
       <Helmet>
-        <title>Use Helmet to set up titile</title>
+        <title>Use Helmet to set up title</title>
       </Helmet>
       <div className="mac-book-pro141-mac-book-pro141">
         <span className="mac-book-pro141-text">
           <span>Summarization of your speech !</span>
         </span>
+        <div className="">
+                <div>
+                    <textarea   type="textarea" 
+                                name="speechText" 
+                                id="speechText" 
+                                className="bigInput" 
+                                title={"Enter the text here ..."}
+                                placeholder="Enter your speech here ..."
+                                onChange={(e)=>{setSpeech(e.target.value)}}
+                    />
+                    <hr />
+                    <button className="btn btn-outline-danger"
+                        onClick={speechInput}
+                    >Submit</button>
+                    <hr />
+                </div>
+            </div>
         <img
           src="/playground_assets/vector117-94t5b.svg"
           alt="Vector117"
@@ -37,27 +57,7 @@ const Summarizer =()=>{
         />
       </div>
     </div>
-        <small><b><i>Created By Gokarna Adhiakri</i></b></small>
-    
-            <h1>Speech Text Summarization !</h1>
-            <div className="niceCentre">
-                <div>
-                    <textarea   type="textarea" 
-                                name="speechText" 
-                                id="speechText" 
-                                className="bigInput" 
-                                title={"Enter the text here ..."}
-                                placeholder="Enter your speech here ..."
-                                onChange={(e)=>{setSpeech(e.target.value)}}
-                    />
-                    <hr />
-                    <button className="btn btn-outline-danger"
-                        onClick={speechInput}
-                    >Submit</button>
-                    <hr />
-                </div>
-            </div>
-        </>
+  </>
     )
 }
 
