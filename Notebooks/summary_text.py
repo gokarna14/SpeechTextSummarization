@@ -58,14 +58,17 @@ print("Encoding Matrix")
 print(encoding_matrix)
 
 # We need the matrix with absolute values only to determine the strength of each part of sentence effectively
+
 final_matrix = encoding_matrix.sort_values('abs_topic1', ascending=False)
 final_matrix[["abs_topic1", "abs_topic2"]]
 
 # Extracting out final sentence from topic 1
+
 sentence1 = final_matrix[final_matrix["abs_topic1"] >= 0.4]
 sentence1[['abs_topic1']]
 
 # Extracting out final sentence from topic 2
+
 sentence2 = final_matrix[final_matrix["abs_topic2"] >= 0.4]
 sentence2[['abs_topic2']]
 
