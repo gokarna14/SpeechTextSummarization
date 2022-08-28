@@ -20,6 +20,7 @@ bag_of_words = vectorizer.fit_transform(doc)
 
 # print(bag_of_words)
 
+
 bag_of_words.todense()
 
 # print(bag_of_words.todense())
