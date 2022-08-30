@@ -35,6 +35,7 @@ lsa = svd.fit_transform(bag_of_words)
 
 topic_encoded_df = pd.DataFrame(lsa, columns=["topic1", "topic2"])
 topic_encoded_df["doc"] = doc
+
 print('\n------------\n')
 
 print(topic_encoded_df[["doc", "topic1", "topic2"]])
