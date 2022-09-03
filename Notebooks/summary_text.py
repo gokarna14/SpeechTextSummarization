@@ -25,6 +25,9 @@ bag_of_words.todense()
 
 # Singular value decomposition
 # This process encodes our original data into topic encoded data
+
+
+
 svd = TruncatedSVD(n_components=2)
 lsa = svd.fit_transform(bag_of_words)
 
