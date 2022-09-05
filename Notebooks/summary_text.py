@@ -28,6 +28,8 @@ bag_of_words.todense()
 
 
 
+
+
 svd = TruncatedSVD(n_components=2)
 lsa = svd.fit_transform(bag_of_words)
 
