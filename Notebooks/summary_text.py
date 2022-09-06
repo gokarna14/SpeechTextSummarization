@@ -21,14 +21,6 @@ bag_of_words = vectorizer.fit_transform(doc)
 # print(bag_of_words)
 bag_of_words.todense()
 
-# print(bag_of_words.todense())
-
-# Singular value decomposition
-# This process encodes our original data into topic encoded data
-
-
-
-
 
 svd = TruncatedSVD(n_components=2)
 lsa = svd.fit_transform(bag_of_words)
