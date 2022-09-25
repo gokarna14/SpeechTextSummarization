@@ -18,6 +18,10 @@ doc = [
 
 
 
+
+
+
+
 # Converting each document into an vector
 vectorizer = CountVectorizer()
 
