@@ -13,23 +13,6 @@ doc = [
     "A ML intern",
     "A ML developer"
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Converting each document into an vector
 vectorizer = CountVectorizer()
 
