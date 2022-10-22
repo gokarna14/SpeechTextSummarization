@@ -2,16 +2,12 @@ import React from "react";
 import { useState } from "react";
 import './Summarizer.css'
 import { Helmet } from 'react-helmet'
+
 //  sudo chmod 777 web   
 // ls -la /usr/local/lib/node_modules     
 
 
 const Summarizer =()=>{
-
-
-
-  
-
 
     const [speech, setSpeech] = useState('')
 
