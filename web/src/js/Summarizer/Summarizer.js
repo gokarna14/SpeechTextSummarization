@@ -4,6 +4,7 @@ import './Summarizer.css'
 import { Helmet } from 'react-helmet'
 
 //  sudo chmod 777 web   
+// If it says no sufficient permission
 // ls -la /usr/local/lib/node_modules     
 
 
