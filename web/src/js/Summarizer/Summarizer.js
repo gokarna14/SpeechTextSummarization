@@ -13,7 +13,6 @@ const Summarizer =()=>{
         alert(`The speech you entered is \n ${speech}`)
     }
     
-    
     return(
         <>
         <div className="mac-book-pro141-container">
