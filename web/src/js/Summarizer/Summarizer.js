@@ -8,7 +8,6 @@ const Summarizer =()=>{
 
     const [speech, setSpeech] = useState('')
 
-
     const speechInput=()=>{
         alert(`The speech you entered is \n ${speech}`)
     }
