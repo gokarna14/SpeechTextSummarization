@@ -9,7 +9,6 @@ const AlwaysRender =()=>{
     return(
         <>
             <h5>This portion will always render...</h5>
-
             <i>Put the modules below this !</i>
 
             <hr />
