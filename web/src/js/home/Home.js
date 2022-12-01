@@ -5,7 +5,6 @@ const Home =()=>{
 
     return(
         <>
-            <h1 className="title">Speech Text Summerization and Data Mining using NLP</h1>
             <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">HomePage</a>
@@ -27,6 +26,7 @@ const Home =()=>{
     </div>
   </div>
 </nav>
+<h1 className="title">Speech Text Summerization and Data Mining using NLP</h1>
             <marquee> This is our homepage</marquee>
         </>
     )
