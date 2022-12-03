@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import AlwaysRender from './js/AlwaysRender/AlwaysRender';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
