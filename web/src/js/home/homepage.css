@@ -9,3 +9,41 @@
     display: inline;
     line-height: 150px;
 }
+.navbar{
+    position: relative;
+    height: 40px;
+    background-color: black;
+    overflow:auto;
+    text-align: center;
+
+}
+
+.navbar ul li{
+    text-align: center;
+    position: relative;
+    list-style: none;
+    padding: 5%;
+    display: inline;
+    font-size:small ;
+    margin:10px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+   text-decoration: none; 
+   display: inline;
+}
+.navbar ul a.active{
+    color: #6bf;
+}
+a:active{
+   background: #6bf; 
+}

@@ -10,7 +10,7 @@ const AboutUs =()=>{
         <>
            <html>
         <link rel="stylesheet" href="./files/custom.css"/>
-        <div class="aboutus"><h1>About Us</h1></div>
+        <div class="aboutus" id="aboutus"><h1>About Us</h1></div>
                 <div class="title-card logo-a caption-a" ><h5>Abhay Nepal</h5></div>
         <div class="title-card logo-b caption-b"><h5>Dipesh Tripathi</h5></div>
         <div class="title-card logo-c caption-c"><h5>Gokarna Adhikari</h5></div>

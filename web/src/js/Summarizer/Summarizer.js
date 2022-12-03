@@ -17,7 +17,7 @@ const Summarizer =()=>{
     
     return(
         <>
-        <div className="mac-book-pro141-container">
+        <div className="mac-book-pro141-container" id="summarizer">
       <Helmet>
         <title>Use Helmet to set up title</title>
       </Helmet>

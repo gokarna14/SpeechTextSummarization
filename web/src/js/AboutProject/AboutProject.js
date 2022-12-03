@@ -1,11 +1,9 @@
 import React from "react";
 
 const AboutProject =()=>{
-
     return(
-        <>
-            This is silence AboutProject.
-        </>
+        <div id="aboutProject">
+<h2>About Project</h2></div>
     )
 
 }
